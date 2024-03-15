@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: martian-bank-demo
+  annotations:
+    github.com/project-slug: ajay-infracloud/martian-bank-demo
+spec:
+  type: other
+  lifecycle: unknown
+  owner: infrastructure
