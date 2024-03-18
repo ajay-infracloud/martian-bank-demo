@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: martian-bank-demo
   annotations:
+    argocd/app-name: value
     github.com/project-slug: ajay-infracloud/martian-bank-demo
     'backstage.io/kubernetes-label-selector': 'app=accounts'
     # 'argocd/app-name': martian-bank-demo
