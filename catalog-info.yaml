@@ -5,7 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: ajay-infracloud/martian-bank-demo
     'backstage.io/kubernetes-label-selector': 'app=accounts'
-    argocd/app-name: martian-bank-demo
+    'argocd/app-name': martian-bank-demo
 spec:
   type: service
   lifecycle: unknown
