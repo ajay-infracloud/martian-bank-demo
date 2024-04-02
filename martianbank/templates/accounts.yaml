@@ -4,6 +4,7 @@ metadata:
   name: accounts
   labels:
     app: accounts
+    parent-app: martian-bank
 spec:
   replicas: 1
   selector:
@@ -13,6 +14,7 @@ spec:
     metadata:
       labels:
         app: accounts
+        parent-app: martian-bank
     spec:
       containers:
         - name: accounts
