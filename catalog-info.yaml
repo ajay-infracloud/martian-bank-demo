@@ -4,7 +4,7 @@ metadata:
   name: martian-bank-demo
   annotations:
     github.com/project-slug: ajay-infracloud/martian-bank-demo
-    'backstage.io/kubernetes-label-selector': 'parent-app: martian-bank'
+    'backstage.io/kubernetes-label-selector': 'parent-app=martian-bank'
     'argocd/app-name': 'martian-bank-demo'
     backstage.io/techdocs-ref: .
 spec:
