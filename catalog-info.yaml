@@ -7,10 +7,10 @@ metadata:
     'backstage.io/kubernetes-label-selector': 'parent-app=martian-bank'
     'argocd/app-name': 'martian-bank-demo'
     'backstage.io/techdocs-ref': dir:.
-    links:
-    - url: https://www.google.com
-      title: My Dashboard
-      icon: dashboard
+  links:
+  - url: https://www.google.com
+    title: My Dashboard
+    icon: dashboard
 spec:
   type: service
   lifecycle: experimental
