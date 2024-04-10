@@ -9,7 +9,7 @@ metadata:
     'backstage.io/techdocs-ref': dir:.
   links:
   - url: https://www.google.com
-    title: My Dashboard
+    title: www.google.com
     icon: dashboard
 spec:
   type: service
